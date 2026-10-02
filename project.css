@@ -58,6 +58,11 @@ aside
     padding-bottom: 15px;
 }
 
+aside h2
+{
+    text-align: center;
+}
+
 .box
 {
     width: 80%;
@@ -73,11 +78,15 @@ aside
     color: #22232E;
     margin-top: 5px;
     margin-bottom: 10px;
+    text-align: center;
 }
+
+
 
 .box p
 {
     font-size: 14px;
+    text-align: center;
 }
 
 .box a
@@ -85,6 +94,7 @@ aside
     color: #22232e;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
 }
 
 .box a:hover
@@ -155,4 +165,27 @@ footer a
 address
 {
     font-style: normal;
+}
+
+.profile-photo
+{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.video-section
+{
+    text-align:center;
+    margin-top: 30px;
+
+}
+
+.video-section video
+{
+    width: 50%;
+    height: auto;
+
 }
