@@ -37,7 +37,6 @@ nav
 nav a
 {
     color: #22232E;
-    text-decoration: none;
     margin: 20px;
 }
 
@@ -63,12 +62,18 @@ aside h2
     text-align: center;
 }
 
+aside a
+{
+    text-align: center;
+}
+
 .box
 {
     width: 80%;
     margin: 15px auto;
     padding: 12px;
-    background-color: white;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100;Blue+3D+%231 */
+background: radial-gradient(ellipse at center, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     color: #22232E;
     border-radius: 10px
 }
@@ -159,7 +164,7 @@ footer p
 footer a
 {
     color: #3dbf56;
-    text-decoration: none;
+
 }
 
 address
