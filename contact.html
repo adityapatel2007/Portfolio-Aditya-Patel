@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="project.css" type="text/css" media="only screen and (min-width:960px)">
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Portfolio - Aditya Patel</h1>
+
+            <nav>
+                <h4>
+                    <a href="index.html">Home</a> |
+                    <a href="aboutme.html">About Me</a> |
+                    <a href="projects.html">My Projects</a> |
+                    <a href="contact.html">Contact Me</a>
+                </h4>
+            </nav>
+        </header>
+
+        <aside>
+            <h2>Navigation</h2>
+
+            <section class="box">
+                <h3>Home</h3>
+                <p>Return to the main screen</p>
+                <a href="index.html">Show More...</a>
+            </section>
+
+            <section class="box">
+                <h3>About Me</h3>
+                <p>Learn more about my backgroud</p>
+                <a href="aboutme.html">Show More...</a>
+            </section>
+
+            <section class="box">
+                <h3>My Projects</h3>
+                <p>Explore some of my projects</p>
+                <a href="projects.html">Show More...</a>
+            </section>
+
+            <section class="box">
+                <h3>Contact Me</h3>
+                <p>Use the contact form to contact me</p>
+                <a href="contact.html">Show more...</a>
+            </section>
+        
+        </aside>
+
+        <main>
+            <article>
+            <h2>Contact Me</h2>
+            <p class="contact-me">if you would like to contact me, please complete the form below.</p>
+            <form action="mailto:adityapatel8@ontariotechu.net?subject=Portfolio Website Contact"
+                method="post"
+                enctype="text/plain"
+                name="contact_form">
+                
+                <p>
+                    <label for="Fname">First Name:</label>
+                    <input type="text"
+                        id="Fname"
+                        name="First Name"
+                        size="32"
+                        required>
+                </p>
+                <p>
+                    <label for="Lname">Last Name:</label>
+                    <input type="text"
+                        id="Lname"
+                        name="Last Name"
+                        size="32"
+                        required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email"
+                        id="email"
+                        name="Email"
+                        size="40"
+                        required>
+                </p>
+                <p>
+                    <label for="phone">Cell Number:</label>
+                    <input type="tel"
+                        id="phone"
+                        name="Cell Number"
+                        size="20"
+                        placeholder="123-456-7890"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        required>
+                </p>
+                <p>
+                    <label for="comments">Comments:</label><br>
+                    <textarea id="comments"
+                    name="Comments"
+                    rows="6"
+                    cols="60"
+                    required></textarea>
+                </p>
+                <p>
+                    <input type="checkbox"
+                        id="mailist"
+                        name="Mailing List">
+
+                    <label for="mailist">
+                        Join my mailing list
+                    </label>
+                </p>
+                <p>
+                    <label for="where">
+                        Where did you here about my portfolio?
+                    </label>
+                    <select id="where" name="Where">
+                        <option value="ontariotech">
+                            Ontario Tech University
+                        </option>
+                        <option value="linkedin">
+                            LinkedIn
+                        </option>
+                        <option value="github">
+                            Github
+                        </option>
+                        <option value="friend">
+                        Friend
+                        </option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="countries">Where do you live?</label>
+                    <input list="countries"
+                            id="country"
+                            name="Country">
+
+                    <datalist id="countries">
+                        <option value="Canada">
+                        <option value="United States">
+                        <option value="Mexico">
+                        <option value="United Kingdom">
+                        <option value="China">
+                    </datalist>
+                </p>
+                <p>
+                    <span>Would you recommend my portfolio</span>
+                    <input type="radio"
+                        id="yes"
+                        name="Recommend"
+                        value="Yes"
+                        checked>
+
+                    <label for="yes">Yes</label>
+                    <input type="radio"
+                        id="no"
+                        name="Recommend"
+                        value="No">
+
+                    <label for="no">No</label>
+                </p>
+                <p>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </p>
+
+            </form>
+                
+            </article>
+        </main>
+    </div>
+    
+</body>
+</html>

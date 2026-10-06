@@ -9,16 +9,16 @@ body
 
 #wrapper
 {
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
 header
 {
-    background-color: #22232E;
+    background: #22232E;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 header h1
@@ -31,28 +31,30 @@ nav
 {
     background-color: #FFFFFF;
     padding: 5px;
-    border-bottom: 4px solid #3DBF56
+    text-align: center;
+    border-bottom: 4px solid #3DBF56;
 }
 
 nav a
 {
     color: #22232E;
-    margin: 20px;
+    margin: 10px;
 }
 
 nav a:hover
 {
-    color: #3DBF56; 
+    color: #3DBF56;
 }
 
 aside
 {
-    width: 25%;
-    float: left;
+    width: 100%;
+    float: none;
     background-color: #3b6f99;
     color: white;
-    text-align: centre;
+    text-align: center;
     margin-top: 15px;
+    padding-top: 10px;
     padding-bottom: 15px;
 }
 
@@ -68,14 +70,14 @@ aside a
 
 .box
 {
-    width: 80%;
-    margin: 15px auto;
+    width: 42%;
+    float: left;
+    margin: 2%;
     padding: 12px;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100;Blue+3D+%231 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100;Blue+3D+%231 */
 background: radial-gradient(ellipse at center, rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     color: #22232E;
     border-radius: 10px;
-    text-align: center;
 }
 
 .box h3
@@ -86,8 +88,6 @@ background: radial-gradient(ellipse at center, rgba(247,251,252,1) 0%,rgba(217,2
     text-align: center;
 }
 
-
-
 .box p
 {
     font-size: 14px;
@@ -96,7 +96,7 @@ background: radial-gradient(ellipse at center, rgba(247,251,252,1) 0%,rgba(217,2
 
 .box a
 {
-    color: #22232e;
+    color: #22232E;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -104,24 +104,24 @@ background: radial-gradient(ellipse at center, rgba(247,251,252,1) 0%,rgba(217,2
 
 .box a:hover
 {
-    color: #3DBF56
+    color: #3DBF56;
 }
 
 main
 {
-    width: 70%;
+    clear: both;
+    width: 100%;
     min-height: 500px;
-    float: right;
-    background-color: #fff;
+    float: none;
+    background-color: #FFFFFF;
     color: #22232E;
     margin-top: 15px;
     border-top: 6px solid #3b6f99;
-
 }
 
 article
 {
-    padding: 40px;
+    padding: 30px;
 }
 
 article h2
@@ -131,7 +131,6 @@ article h2
     border-bottom: 2px solid #3DBF56;
     padding-bottom: 10px;
     margin-top: 10px;
-
 }
 
 article p
@@ -140,42 +139,10 @@ article p
     font-size: 16px;
 }
 
-footer
-{
-    clear: both;
-    background-color: #22232e;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 15px;
-    border-top: 5px solid #3DBF56
-}
-
-footer h5
-{
-    margin: 5px;
-}
-
-footer p
-{
-    margin: 5px;
-}
-
-footer a
-{
-    color: #3dbf56;
-
-}
-
-address
-{
-    font-style: normal;
-}
-
 .profile-photo
 {
-    width: 200px;
-    height: 200px;
+    width: 30%;
+    height: auto;
     display: block;
     margin: 20px auto;
     border-radius: 10px;
@@ -183,16 +150,14 @@ address
 
 .video-section
 {
-    text-align:center;
+    text-align: center;
     margin-top: 30px;
-
 }
 
 .video-section video
 {
-    width: 50%;
+    width: 75%;
     height: auto;
-
 }
 
 .projects-main
@@ -200,20 +165,20 @@ address
     min-height: 900px;
 }
 
-.projects
+.project
 {
-    width: 90px;
+    width: 85%;
     margin: 20px auto;
     padding: 15px;
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     color: #22232E;
-    border-left: 5px solid #4682b4;
+    border-left: 5px solid #4682B4;
     border-radius: 5px;
 }
 
 .project h3
 {
-    color: #4682b4;
+    color: #4682B4;
     margin-top: 5px;
 }
 
@@ -231,10 +196,10 @@ address
 
 form
 {
-    width: 75%;
+    width: 80%;
     margin: 20px auto;
-    padding: 30px;
-    background-color: #f2f2f2;
+    padding: 25px;
+    background-color: #F2F2F2;
     color: #22232E;
     border-radius: 10px;
 }
@@ -292,8 +257,38 @@ form input[type="submit"],form input[type="reset"]
     border-radius: 5px;
 }
 
-form input[type="submit"]:hover, form input[type="reset"]:hover
+form input[type="submit"]:hover,form input[type="reset"]:hover
 {
     background-color: #3DBF56;
 }
 
+footer
+{
+    clear: both;
+    background-color: #22232e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    border-top: 5px solid #3DBF56;
+}
+
+footer h5
+{
+    margin: 5px;
+}
+
+footer p
+{
+    margin: 5px;
+}
+
+footer a
+{
+    color: #3DBF56;
+}
+
+address
+{
+    font-style: normal;
+}
