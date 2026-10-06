@@ -189,9 +189,7 @@ sizes.
 Most of the HTML and CSS code used in this website was written by me and was based on concepts and examples taught in the course lectures and tutorials.
 
 
-The radial gradient code used for the navigation boxes was generated using the ColorZilla Gradient Editor and was implemented in the `.box`
-CSS class.
-
+The radial gradient code used for the navigation boxes was generated using the ColorZilla Gradient Editor and was implemented in the `.box` CSS class.
 
 Source: ColorZilla Gradient Editor\
 URL:
@@ -199,12 +197,20 @@ https://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100;Blue+3D+%2
 
 The website colour palette was selected using Adobe Color.
 
-
 Source: Adobe Color
 Palette: High Tech Bright Life
 URL:
 https://color.adobe.com/explore?q=tech&color-palette=CCCFD5%2CFFFFFF%2C4682B4%2C22232E%2C3DBF56&color-palette-name=My+Color+Theme
 
+MDN Web Docs was used as a reference for the HTML5 telephone input and the pattern attribute.
+
+Source: MDN Web Docs
+URL:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/tel
+
+The Contact Me form uses the following pattern to require a telephone number in the xxx-xxx-xxxx format:
+
+pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
 
 ## GitHub and Version Control
 
